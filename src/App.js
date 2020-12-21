@@ -3,10 +3,12 @@ import './App.css';
 function App() {
 
   return (
-    <div className="App">
+    <div className='App'>
       <form className='search-form'>
         <input className='search-bar'type='text'/>
-        <button className='search-button' type='submit'>Search</button>
+        <button className='search-button' type='submit'>
+          Search
+        </button>
       </form>
     </div>
   );
